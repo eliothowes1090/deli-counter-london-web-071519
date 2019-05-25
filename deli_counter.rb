@@ -24,6 +24,6 @@ def now_serving(deli_line)
   if deli_line.empty?
     puts "There is nobody waiting to be served!"
   else
-    deli_line.unshift
+    deli_line.shift
   end
 end
