@@ -24,6 +24,6 @@ def now_serving(deli_line)
   if deli_line.empty?
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{katz_deli.first}."
+    puts "Currently serving #{deli_line.first}."
   end
 end
